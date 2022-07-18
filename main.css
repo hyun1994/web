@@ -1,3 +1,85 @@
-div {
-    color: red;
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    position: relative;
+}
+
+header .forms input.form-control {
+    color: white;
+    background-color: rgba(255,255,255,.15);
+    border-color: rgba(255,255,255,.3);
+}
+
+header .forms input.form-control::placeholder {
+    color: rgba(255,255,255,.6);
+}
+
+section.hero {
+    background-color: #040d22;
+    position: relative;
+    overflow: hidden;
+}
+
+section.hero .container {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+section.hero .headline h1 {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+section.hero .headline p {
+    font-size: 26px;
+}
+
+section.hero img.globe{
+    width: 900px;
+    position: absolute;
+    top: -5%;
+    left: 46%;
+}
+
+section.hero img.glow{
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.hero .curve{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+section.youtube {
+
+}
+
+section.youtube .container{
+    padding-top: 90px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+section.youtube img.astronaut{
+    width: 480px;
+    position: absolute;
+    top: -420px;
+    right: 0px;
+}
+
+section.youtube .ratio {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: black;
 }
